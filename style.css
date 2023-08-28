@@ -1,0 +1,61 @@
+/* Herramientas */
+
+/* Fuentes */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Colores */
+
+:root {
+  --granate: #900c3f;
+  --red: #c70039;
+  --orange: #f94c10;
+  --yellow: #f8de22;
+}
+
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: var(--granate);
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  width: 50%;
+  max-width: 500px;
+  min-width: 300px;
+  font-size: 3rem;
+  color: var(--yellow);
+  border: solid 2px var(--yellow);
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 20px;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 25px 0;
+}
+
+p {
+  text-align: left;
+  line-height: 3.5rem;
+}
